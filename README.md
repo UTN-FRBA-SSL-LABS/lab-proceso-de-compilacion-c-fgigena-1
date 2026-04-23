@@ -1254,3 +1254,16 @@ c. Ejecutar `ldd programa_static` (Linux). ¿Qué diferencia hay respecto a `ldd
 a. Ejecutar `clang -Xclang -dump-tokens programa.c 2>&1 | grep "programa.c" | wc -l`. ¿Cuántos tokens tiene `programa.c`?
 b. Buscar en la salida del AST (`clang -Xclang -ast-dump`) la función `factorial`. ¿Cómo se representa la recursión en el árbol?
 c. ¿Aparece algún `ImplicitCastExpr` en el AST? ¿Qué conversión realiza?
+LINEAS_I=1783
+COMENTARIOS_EN_I=NO
+CUADRADO_EN_I=NO
+NOMBRE_MACRO_VERSION=VERSION
+DEBUG_ACTIVA_CODIGO=SI
+AREA_EN_S=LLAMADA
+LLAMADAS_EN_S=SI
+TIPO_AREA_EN_O=U
+ETAPA_QUE_RESUELVE=ENLAZADO
+EJECUTABLE_O=NO
+TIPO_AREA_ENLAZADO=T
+SIMBOLOS_U_FINAL=SI
+FACTORIAL_5=120
